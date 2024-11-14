@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modules {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.modules_title {
+    color: #3F2AFF;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.modules_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    min-width: 572px;
+    border: 1px solid black;
+}
+
+.card_image {
+
+}
+
+.img_one {
+    background-image: url('fundamentals_of_algo_and_prog/october/friday18/images/');
+}

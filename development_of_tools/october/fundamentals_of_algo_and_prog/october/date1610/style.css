@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    /*display: inline-block;*/
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*.card:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/

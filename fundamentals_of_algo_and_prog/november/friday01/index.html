@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<div>
+    <div class="userPage hide" id="userPage">
+        <h1 id="greetings"></h1>
+        <button id="exit">Выйти</button>
+    </div>
+
+    <form class="log hide" id="log">
+        <h3>Вход</h3>
+        <label for="regMail">Почта
+            <input type="email" name="mail" id="logMail">
+        </label>
+
+        <label for="regPassword">Пароль
+            <input type="password" name="pass" id="logPassword">
+        </label>
+
+        <button type="submit" class="button" id="logBtn">Войти</button>
+        <button type="button" class="button" id="toRegBtn">Зарегистрироваться</button>
+    </form>
+
+    <form class="reg hide" id="reg">
+        <h3>Регистрация</h3>
+
+        <label>
+            Имя
+            <input type="text" name="firstName" id="regFirstName" placeholder="Имя" required>
+        </label>
+
+        <label>Фамилия
+            <input type="text" name="lastName" id="regSecondName" placeholder="Фамилия" required>
+        </label>
+
+        <label for="regMail">Почта
+            <input type="email" name="mail" id="regMail" placeholder="Почта" required>
+        </label>
+
+        <label for="regPassword">Пароль
+            <input type="password" name="pass" id="regPassword" placeholder="Пароль" required>
+        </label>
+
+        <label for="regPasswordCopy">Повторите пароль
+            <input type="password" name="repPass" id="regPasswordCopy" placeholder="Повторите пароль" required>
+        </label>
+
+        <button type="submit" class="button" id="regBtn">Зарегистрироваться</button>
+        <button class="button" id="toLogBtn">Есть аккаунт</button>
+    </form>
+
+    <button id="clear">Clear memory</button>
+</div>
+</body>
+</html>

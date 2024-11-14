@@ -1,0 +1,14 @@
+.block {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: black solid 1px;
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
+
+.hide {
+    display: none;
+}
